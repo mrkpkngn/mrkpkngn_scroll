@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.about{
+    flex: 1;
+}
+
+.about h1{
+    font-weight: 600;
+}
+
+.education{
+    flex: 1;
+}
+
+.education__container{
+    display: flex;
+}
+
+.school__container{
+    flex: 1;
+    display: flex;
+    background-color: #FFF8F2;
+    align-content: center;
+}
+
+.school__container h3{
+    font-family: 'Work Sans';
+    font-weight: 600;
+}
+
+.school__text{
+    align-self: center;
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+
+    .about{
+        margin: 10vw;
+    }
+
+    .education{
+        margin: 0 10vw;
+    }
+
+    .education__container{
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    .school__container{
+        border-radius: 3vw;
+        gap: 5vw;
+        padding: 2vw;
+    }
+
+    .school__container img{
+        width: 15vw;
+        margin-left: 5.5vw;
+    }
+    
+    .school__container h3{
+        font-size: 4vw;
+    }
+
+    .school__container p{
+        font-size: 3vw;
+    }
+}
+
+@media (min-width: 769px) {
+    .container{
+        max-width: 769px;
+        align-self: center;
+    }
+    
+    .about{
+        flex: 1;
+        margin: 4rem;
+    }
+
+    .education{
+        margin: 0 4rem;
+    }
+
+    .education__container{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .school__container{
+        border-radius: 2rem;
+        gap: 1rem;
+        padding: 2rem 1rem;
+        flex-direction: column;
+    }
+
+    .school__container img{
+        width: 6rem;
+        height: 6rem;
+        align-self: center;
+    }
+
+    .school__container h3{
+        font-size: 1rem;
+        text-align: center;
+        margin: 0.2rem;
+    }
+
+    .school__container h3#acs{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .school__container p{
+        font-size: 0.75rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container{
+        max-width: 1024px;
+        align-self: center;
+    }
+    
+    .about{
+        flex: 1;
+        margin: 5rem;
+    }
+
+    .about p{
+        font-size: 1.25rem;
+    }
+
+    .about h1{
+        font-size: 3rem;
+    }
+
+    .education{
+        margin: 0 5rem;
+    }
+
+    .education h1{
+        font-size: 3rem;
+    }
+
+    .education__container{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .school__container{
+        border-radius: 2rem;
+        gap: 1rem;
+        padding: 3rem 1rem;
+        flex-direction: column;
+    }
+
+    .school__container img{
+        width: 8.5rem;
+        height: 8.5rem;
+        align-self: center;
+    }
+
+    .school__container h3{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0.2rem;
+    }
+
+    .school__container h3#acs{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .school__container p{
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container{
+        max-width: 1280px;
+        align-self: center;
+    }
+    
+    .about{
+        flex: 1;
+        margin: 3rem 7rem;
+    }
+
+    .about p{
+        font-size: 1.25rem;
+    }
+
+    .about h1{
+        font-size: 3rem;
+    }
+
+    .education{
+        margin: 0 7rem;
+    }
+
+    .education h1{
+        font-size: 3rem;
+    }
+
+    .education__container{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .school__container{
+        border-radius: 2rem;
+        gap: 1rem;
+        padding: 4rem 1rem;
+        flex-direction: column;
+    }
+
+    .school__container img{
+        width: 10rem;
+        height: 10rem;
+        align-self: center;
+    }
+
+    .school__container h3{
+        font-size: 2.25rem;
+        text-align: center;
+        margin: 0.2rem;
+    }
+
+    .school__container h3#acs{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .school__container p{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container{
+        max-width: 1600px;
+        align-self: center;
+    }
+    
+    .about{
+        flex: 1;
+        margin: 7rem 10rem;
+    }
+
+    .about p{
+        font-size: 1.75rem;
+    }
+
+    .about h1{
+        font-size: 4rem;
+    }
+
+    .education{
+        margin: 0 10rem;
+    }
+
+    .education h1{
+        font-size: 4rem;
+    }
+
+    .education__container{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .school__container{
+        border-radius: 2rem;
+        gap: 1rem;
+        padding: 5rem 1rem;
+        flex-direction: column;
+    }
+
+    .school__container img{
+        width: 12rem;
+        height: 12rem;
+        align-self: center;
+    }
+
+    .school__container h3{
+        font-size: 2.75rem;
+        text-align: center;
+        margin: 0.2rem;
+    }
+
+    .school__container h3#acs{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .school__container p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1920px) {
+    .container{
+        max-width: 1600px;
+        align-self: center;
+    }
+    
+    .about{
+        flex: 1;
+        margin: 3rem;
+    }
+
+    .about p{
+        font-size: 1.75rem;
+    }
+
+    .about h1{
+        font-size: 4rem;
+    }
+
+    .education{
+        margin: 0 3rem;
+    }
+
+    .education h1{
+        font-size: 4rem;
+    }
+
+    .education__container{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .school__container{
+        border-radius: 2rem;
+        gap: 1rem;
+        padding: 7rem 1rem;
+        flex-direction: column;
+    }
+
+    .school__container img{
+        width: 12rem;
+        height: 12rem;
+        align-self: center;
+    }
+
+    .school__container h3{
+        font-size: 2.75rem;
+        text-align: center;
+        margin: 0.2rem;
+    }
+
+    .school__container h3#acs{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .school__container p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 2560px) {
+    .container{
+        max-width: 2560px;
+        align-self: center;
+    }
+    
+    .about{
+        flex: 1;
+        margin: 7rem 15rem;
+    }
+
+    .about p{
+        font-size: 2rem;
+    }
+
+    .about h1{
+        font-size: 5rem;
+    }
+
+    .education{
+        margin: 0 15rem;
+    }
+
+    .education h1{
+        font-size: 5rem;
+    }
+
+    .education__container{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .school__container{
+        border-radius: 2rem;
+        gap: 1rem;
+        padding: 7rem 1rem;
+        flex-direction: column;
+    }
+
+    .school__container img{
+        width: 20rem;
+        height: 20rem;
+        align-self: center;
+    }
+
+    .school__container h3{
+        font-size: 4rem;
+        text-align: center;
+        margin: 0.2rem;
+    }
+
+    .school__container h3#acs{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .school__container p{
+        font-size: 2rem;
+        text-align: center;
+    }
+}

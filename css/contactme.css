@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactme__container{
+    width: 100%;
+    background: rgb(255,242,197);
+    background: linear-gradient(180deg, rgba(255,242,197,1) 0%, rgba(255,255,255,1) 50%);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+}
+
+.contactme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.contactme__texts p{
+    color: #4D5566;
+}
+
+.contactme__form form{
+    display: flex;
+}
+
+.contactme__form input[type=email]{
+    border-color: #4D5566;
+    border-style: solid;
+    text-align: center;
+}
+
+.contactme__form input[type=submit]{
+    background-color: #F2C94C;
+    border-width: 0;
+    color: #FFFFFE;
+}
+
+.image{
+    background: rgb(239,240,243);
+    background: linear-gradient(90deg, rgba(239,240,243,0) 30%, rgba(239,240,243,1) 100%);
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.image__selfie{
+    display: flex;
+}
+
+.image__selfie img{
+    justify-self: center;
+    align-self: flex-end;
+    position: absolute;
+}
+
+.image__texts h3{
+    color: #403930;
+}
+
+@media (max-width: 768px){
+    .contactme__container{
+        margin-bottom: 10vw;
+    }
+
+    .contactme{
+        margin: 10vw;
+        gap: 2vh;
+    }
+
+    .mailbox{
+        flex: 0.3;
+        width: 20vw;
+        height: 20vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactme__texts{
+        text-align: center;
+        flex: 0.7;
+    }
+
+    .contactme__texts h1{
+        font-weight: 600;
+        font-size: 8vw;
+    }
+
+    .contactme__texts p{
+        font-size: 3.5vw;
+    }
+
+    .contactme__form form{
+        gap: 1.5vw;
+    }
+
+    .contactme__form input[type=email]{
+        padding: 2vw;
+        width: 100%;
+        border-radius: 0.5rem;
+        border-width: 0.15rem;
+    }
+
+    .contactme__form input[type=submit]{
+        padding: 2vw;
+        border-radius: 2vw;
+    }
+
+    .image{
+        margin-top: 10vw;
+        width: 100%;
+        border-radius: 3vw;
+    }
+
+    .image__selfie{
+        flex: 5;
+    }
+
+    .selfie{
+        width: 55vw;
+        height: 45vw;
+    }
+
+    .image__texts{
+        flex: 5;
+    }
+
+    .image__texts h3{
+        padding: 10vw 3vw;
+        font-size: 3.5vw;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 769px){
+    .contactme__container{
+        margin-bottom: 10vw;
+    }
+
+    .contactme{
+        margin: 2rem;
+        gap: 1rem;
+        max-width: 769px;
+    }
+
+    .mailbox{
+        flex: 0.3;
+        width: 5rem;
+        height: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactme__texts{
+        text-align: center;
+        flex: 0.7;
+    }
+
+    .contactme__form{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactme__texts h1{
+        font-weight: 600;
+        font-size: 3rem;
+    }
+
+    .contactme__texts p{
+        font-size: 1rem
+    }
+
+    .contactme__form form{
+        gap: 1.5vw;
+    }
+
+    .contactme__form input[type=email]{
+        padding: 1rem;
+        width: 400px;
+        height: 3rem;
+        border-radius: 1rem;
+        border-width: 0.2rem;
+    }
+
+    .contactme__form input[type=submit]{
+        height: 3rem;
+        padding: 0 1rem;
+        border-radius: 1rem;
+    }
+
+    .image{
+        margin-top: 8rem;
+        max-width: 769px;
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+    .image__selfie{
+        flex: 5;
+    }
+
+    .selfie{
+        width: 25rem;
+        height: 20rem;
+    }
+
+    .image__texts{
+        flex: 5;
+    }
+
+    .image__texts h3{
+        padding: 3rem 2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 1024px){
+    .contactme__container{
+        margin-bottom: 3rem;
+    }
+
+    .contactme{
+        margin: 2rem;
+        gap: 1rem;
+        max-width: 1024px;
+    }
+
+    .mailbox{
+        flex: 0.3;
+        width: 5rem;
+        height: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactme__texts{
+        text-align: center;
+        flex: 0.7;
+    }
+
+    .contactme__form{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactme__texts h1{
+        font-weight: 600;
+        font-size: 3rem;
+    }
+
+    .contactme__texts p{
+        font-size: 1rem
+    }
+
+    .contactme__form form{
+        gap: 1.5vw;
+    }
+
+    .contactme__form input[type=email]{
+        padding: 1rem;
+        width: 400px;
+        height: 3rem;
+        border-radius: 1rem;
+        border-width: 0.2rem;
+    }
+
+    .contactme__form input[type=submit]{
+        height: 3rem;
+        padding: 0 1rem;
+        border-radius: 1rem;
+    }
+
+    .image{
+        margin-top: 8rem;
+        max-width: 1024px;
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+    .image__selfie{
+        flex: 5;
+    }
+
+    .selfie{
+        width: 28.5rem;
+        height: 22.5rem;
+    }
+
+    .image__texts{
+        flex: 5;
+    }
+
+    .image__texts h3{
+        padding: 3rem 2rem;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 1280px){
+    .contactme__container{
+        margin-bottom: 3rem;
+    }
+
+    .contactme{
+        margin: 2rem;
+        gap: 1rem;
+        max-width: 1280px;
+    }
+
+    .mailbox{
+        flex: 0.3;
+        width: 6rem;
+        height: 6rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactme__texts{
+        text-align: center;
+        flex: 0.7;
+    }
+
+    .contactme__form{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactme__texts h1{
+        font-weight: 600;
+        font-size: 3.5rem;
+    }
+
+    .contactme__texts p{
+        font-size: 1.5rem;
+    }
+
+    .contactme__form input[type=email]{
+        font-size: 1.25rem;
+        padding: 1.5rem;
+        width: 400px;
+        height: 3.5rem;
+        border-radius: 1rem;
+        border-width: 0.2rem;
+    }
+
+    .contactme__form input[type=submit]{
+        height: 3.5rem;
+        padding: 0 1.5rem;
+        border-radius: 1rem;
+        font-size: 1.25rem;
+    }
+
+    .image{
+        margin-top: 8rem;
+        max-width: 1280px;
+        width: 100%;
+        border-radius: 1.5rem;
+    }
+
+    .image__selfie{
+        flex: 5;
+    }
+
+    .selfie{
+        width: 39.5rem;
+        height: 33.5rem;
+    }
+
+    .image__texts{
+        flex: 5;
+    }
+
+    .image__texts h3{
+        padding: 3rem 2rem;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 1600px){
+    .contactme__container{
+        margin-bottom: 3rem;
+    }
+
+    .contactme{
+        margin: 2rem;
+        gap: 1rem;
+        max-width: 1600px;
+    }
+
+    .mailbox{
+        flex: 0.3;
+        width: 6rem;
+        height: 6rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactme__texts{
+        text-align: center;
+        flex: 0.7;
+    }
+
+    .contactme__form{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactme__texts h1{
+        font-weight: 600;
+        font-size: 4rem;
+    }
+
+    .contactme__texts p{
+        font-size: 1.75rem;
+    }
+
+    .contactme__form input[type=email]{
+        font-size: 1.25rem;
+        padding: 1.5rem;
+        width: 500px;
+        height: 3.5rem;
+        border-radius: 1rem;
+        border-width: 0.2rem;
+    }
+
+    .contactme__form input[type=submit]{
+        height: 3.5rem;
+        padding: 0 1.5rem;
+        border-radius: 1rem;
+        font-size: 1.25rem;
+    }
+
+    .image{
+        margin-top: 15rem;
+        max-width: 1600px;
+        width: 100%;
+        border-radius: 1.5rem;
+    }
+
+    .image__selfie{
+        flex: 5;
+    }
+
+    .selfie{
+        width: 50.5rem;
+        height: 39.5rem;
+    }
+
+    .image__texts{
+        flex: 5;
+    }
+
+    .image__texts h3{
+        padding: 3rem 2rem;
+        font-size: 3.75rem;
+        font-weight: 600;
+    }
+}
